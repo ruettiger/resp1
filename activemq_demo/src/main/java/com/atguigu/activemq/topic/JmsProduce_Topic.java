@@ -11,7 +11,7 @@ import javax.jms.*;
 public class JmsProduce_Topic {
     private static String ACTIVEMQ_URL = "tcp://192.168.56.139:61616/";
     private static String TOPIC_NAME = "topic01";
-
+    private static String Test_Topic = "topic_test";
     public static void main(String[] args) throws JMSException {
         ActiveMQConnectionFactory activeMQConnectionFactory = new ActiveMQConnectionFactory(ACTIVEMQ_URL);
         Connection connection = activeMQConnectionFactory.createConnection();
