@@ -11,6 +11,7 @@ import javax.jms.*;
 public class JmsProduce {
     public static final String ACTIVEMQ_URL = "tcp://192.168.56.139:61616/";
     public static final String QUEUE_NAME = "queue01";
+    public static final String QUEUE_TEST = "ddd";
 
     public static void main(String[] args) throws JMSException {
         //1.创建连接工厂,按照给定的URL地址，采用默认用户名和密码
