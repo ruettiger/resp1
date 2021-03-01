@@ -31,6 +31,7 @@ public class JmsProduce {
 //            mapMessage.setString("k1", "MapMessage" + i);
 //            messageProducer.send(mapMessage);
         }
+        
         messageProducer.close();
         session.close();
         connection.close();
